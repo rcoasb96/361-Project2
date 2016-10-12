@@ -9,37 +9,69 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
 /* ===== BASE STYLES ===== */
 
 /*
-  Setting type to a perfect fourth scale 
-  http://www.modularscale.com/?16&px&1.333&web&text
+  Setting type to a perfect fourth scale (16:9)
+  http://www.modularscale.com/?18&px&1.333&web&text
 */
 
-html {
-  font-size: 1.333em; /* 18px */
+html{
+  font-size: 1em; /* 18px */
+  font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
   line-height: 1.222em; /* 22px = 1 gridline*/
-  background-color: #a39765;
-  color: #222;
+  background-color: #ddaaaa;
 }
 
 h1 {
-  font-size: 1.777em; /* 28.43px */
-  line-height: 1.415em; /* 44px @ 31.104px em */
+  color: #a34747;
+  font-size: 2.369em; /* 42.635px */
+  line-height: 0.969em; /*44px @ 42.635px */
 }
-section {
-  background-color: #94a066;
+
+h2, h3 {
+  font-size: 1.333em; /* 31.984px */
+  line-height: 1.454em; /* 22px @ 31.984px */
+  color: #6d0000;
 }
-p,
+
+article {
+  background-color: #ee8f8f;
+}
+
+.welcome, .beginning, .end, .school, .work {
+  background-color: #bbccdd;
+}
+.middle, .facts, .volunteer, .skills{
+  background-color: #aaccbb;
+}
+
+p{
+  padding: 1.222em;
+  color: #a34747;
+}
+
 ul {
-  padding-bottom: 1.222em; /* 19.6px */
+  padding: 1.222em; /* 19.6px */
 }
 
 li {
+  color: #A10000;
   padding-bottom: 0.611em; /* 11px = half gridline*/
 }
 
 li:last-child {
   padding-bottom: 0;
 }
+
 /* ===== LAYOUT STYLES ===== */
+
+html{
+  padding: 1.222em;
+}
+
+h2, h3, figure {
+  padding-top: 1.222em;
+  padding-left: 40%;
+}
+
 
 /* ===== STATE STYLES ===== */
 
