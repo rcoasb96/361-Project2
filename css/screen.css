@@ -9,14 +9,14 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
 /* ===== BASE STYLES ===== */
 
 /*
-  Setting type to a perfect fourth scale
+  Setting type to a perfect fourth scale 
   http://www.modularscale.com/?16&px&1.333&web&text
 */
 
 html {
-  font-size: 1.333em; /* 16px */
+  font-size: 1.333em; /* 18px */
   line-height: 1.222em; /* 22px = 1 gridline*/
-  background-color: #EFE5BE;
+  background-color: #a39765;
   color: #222;
 }
 
@@ -24,7 +24,9 @@ h1 {
   font-size: 1.777em; /* 28.43px */
   line-height: 1.415em; /* 44px @ 31.104px em */
 }
-
+section {
+  background-color: #94a066;
+}
 p,
 ul {
   padding-bottom: 1.222em; /* 19.6px */
