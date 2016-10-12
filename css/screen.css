@@ -9,7 +9,7 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
 /* ===== BASE STYLES ===== */
 
 /*
-  Setting type to a perfect fourth scale (16:9)
+  Setting type to a perfect fourth scale (3:4)
   http://www.modularscale.com/?18&px&1.333&web&text
 */
 
@@ -18,38 +18,27 @@ html{
   font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
   line-height: 1.222em; /* 22px = 1 gridline*/
   background-color: #ddaaaa;
+  padding: 1.222em;
 }
 
 h1 {
   color: #a34747;
   font-size: 2.369em; /* 42.635px */
-  line-height: 0.969em; /*44px @ 42.635px */
+  line-height: 1.032em; /*44px @ 42.635px */
+  padding-bottom: 1.222em;
 }
 
-h2, h3 {
+h2 {
   font-size: 1.333em; /* 31.984px */
   line-height: 1.454em; /* 22px @ 31.984px */
   color: #6d0000;
+  padding-top: 1.222em;
+  padding-left: 1.222em;
 }
 
-article {
-  background-color: #ee8f8f;
-}
-
-.welcome, .beginning, .end, .school, .work {
-  background-color: #bbccdd;
-}
-.middle, .facts, .volunteer, .skills{
-  background-color: #aaccbb;
-}
-
-p{
-  padding: 1.222em;
+p, ul {
+  padding: 1.222em; /* one grid line at 22px */
   color: #a34747;
-}
-
-ul {
-  padding: 1.222em; /* 19.6px */
 }
 
 li {
@@ -61,17 +50,28 @@ li:last-child {
   padding-bottom: 0;
 }
 
+figcaption {
+  font-size: 0.75em; /* 13.503px */
+  line-height: 1.629; /*22px @ 13.503px */
+}
+
 /* ===== LAYOUT STYLES ===== */
 
-html{
-  padding: 1.222em;
+.first {
+  background-color: #e69598;
 }
 
-h2, h3, figure {
-  padding-top: 1.222em;
-  padding-left: 40%;
+.welcome, .beginning, .end, .school, .work {
+  background-color: #bbccdd;
+}
+.middle, .facts, .volunteer, .skills{
+  background-color: #aaccbb;
 }
 
+.u-email {
+  padding-left: 1.222em;
+  padding-bottom: 1.222em;
+}
 
 /* ===== STATE STYLES ===== */
 
